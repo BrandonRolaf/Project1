@@ -1,40 +1,194 @@
 body {
-    background-color:#970000;
     margin: 0;
     padding: 0;
+    background-image: url("https://www.setaswall.com/wp-content/uploads/2018/01/Dark-Grey-Wallpaper-03-1920x1200.jpg")
 }
 
 .navbar ul{
     text-underline: none;
-    color: black;
+    color: white;
     list-style:none;
-    background-color:#464646;
+    background-color:#222222;
     padding:0;
     margin:0;
 }
 
 .navbar li{
     display:inline-block;
-    margin-left:125px;
+    margin-left:50px;
 }
 
 .navbar a {
     text-decoration: none;
-    color: black;
+    color: white;
     display:block;
-    width:100px;
-    padding:25px 20px;
+    width:75px;
+    padding:15px 10px;
     font-weight:bold;
     font-family:arial;
     text-align:center;
 }
 
 .navbar a:hover{
-    background:#740000;
+    background:#353535;
 }
 
-h1 {
+.homepage_h1 {
     text-align:center;
     font-weight:bold;
-    font-size:50px;
+    font-size:30px;
+    color:white;
+    margin-left:100px;
+    margin-right:100px;
+}
+
+.navbar{
+    padding: 0;
+}
+
+.ik_h1{
+    font-weight:bold;
+    font-size:20px;
+    margin-left:250px;
+    margin-top:50px;
+    color:white;
+}
+
+.ik_h2{
+    margin-left:270px;
+    color:white;
+}
+
+.mijn_hobbies_h1{
+    text-align:center;
+    margin-top:50px;
+    font-size:25px;
+    color:white;
+}
+
+.mijn_hobbies_table{
+    font-size:30px;
+    margin-left:220px;
+    margin-right:220px;
+    color:white;
+    justify-content:space-between;
+    padding:10px;
+    display:inline-block;
+    text-align:center;
+}
+
+.bijbaantje_h1{
+    color:white;
+    text-align:center;
+    margin-top:90px;
+}
+
+.bijbaantje_table{
+    color:white;
+    margin-left:70px;
+    margin-top:100px;
+    font-size:30px;
+}
+
+.bijbaantje_table2{
+    color:white;
+    margin-left:70px;
+    margin-top:20px;
+    font-size:30px;
+}
+
+.sporten_h1{
+    color:white;
+    text-align:center;
+    margin-top:50px;
+    margin-left:100px;
+    margin-right:100px;
+}
+
+.sporten_table{
+    color:white;
+    margin-left:200px;
+    margin-top:70px;
+    font-size:30px;
+}
+
+.scholen_h1{
+    color:white;
+    text-align:center;
+    margin-left:100px;
+    margin-right:100px;
+    margin-top:50px;
+}
+
+.opleiding_h1{
+    color:white;
+    text-align:center;
+    margin-left:100px;
+    margin-right:100px;
+    margin-top:50px;
+}
+
+.toekomst_h1{
+    color:white;
+    text-align:center;
+    margin-left:100px;
+    margin-right:100px;
+    margin-top:50px;
+}
+
+.vragen_h1{
+    color:white;
+    font-size:30px;
+    text-align:center;
+    margin-left:100px;
+    margin-right:100px;
+    margin-top:100px;
+}
+
+.feedback_h1{
+    color:white;
+    font-size:30px;
+    text-align:center;
+    margin-left:100px;
+    margin-right:100px;
+    margin-top:100px;
+}
+
+.vragen_form{
+
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    margin-left:auto;
+    margin-right:auto;
+    max-width: 1000px;
+}
+
+form{
+    color:white;
+    background-color: #3c3c3c;
+    border-style: groove;
+    padding-inline:10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+input{
+    width:300px;
+}
+
+textarea{
+    width:300px;
+}
+
+.feedback_form{
+    color:white;
+    font-size:30px;
+    text-align:center;
+    margin-left:100px;
+    margin-right:100px;
+    margin-top:100px;
+    padding-inline: 10px;
+    display:flex;
+    justify-content:center;
 }
