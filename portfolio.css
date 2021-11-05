@@ -66,35 +66,45 @@ body {
     color:white;
 }
 
-.mijn_hobbies_table{
-    font-size:30px;
-    margin-left:220px;
-    margin-right:220px;
+.mijn_hobbies_table {
+    font-size: 30px;
+    margin-left: 220px;
+    margin-right: 220px;
+    color: white;
+    justify-content: space-between;
+    padding: 10px;
+    display: inline-block;
+    text-align: center;
+}
+
+.hobbies_pics{
+    display:flex;
+    justify-content:space-around;
+}
+
+.bijbaantje_title{
     color:white;
-    justify-content:space-between;
-    padding:10px;
-    display:inline-block;
     text-align:center;
+    margin-top:10px;
+    font-size:25px;
 }
 
 .bijbaantje_h1{
     color:white;
     text-align:center;
-    margin-top:90px;
+    margin-top:50px;
 }
 
 .bijbaantje_table{
     color:white;
     margin-left:70px;
-    margin-top:100px;
+    margin-top:75px;
     font-size:30px;
 }
 
-.bijbaantje_table2{
-    color:white;
-    margin-left:70px;
-    margin-top:20px;
-    font-size:30px;
+.bijbaantje_tables{
+    display:flex;
+    justify-content: space-around;
 }
 
 .sporten_h1{
@@ -110,6 +120,8 @@ body {
     margin-left:200px;
     margin-top:70px;
     font-size:30px;
+    display:flex;
+    justify-content:space-around;
 }
 
 .scholen_h1{
@@ -120,6 +132,11 @@ body {
     margin-top:50px;
 }
 
+.scholen_pics{
+    display:flex;
+    justify-content:space-around;
+}
+
 .opleiding_h1{
     color:white;
     text-align:center;
@@ -128,12 +145,26 @@ body {
     margin-top:50px;
 }
 
+.opleiding_pics{
+    color:white;
+    display:flex;
+    justify-content:space-around;
+    margin-left:30px;
+    margin-right:30px;
+    margin-top:30px;
+}
+
 .toekomst_h1{
     color:white;
     text-align:center;
     margin-left:100px;
     margin-right:100px;
     margin-top:50px;
+}
+
+.toekomst_pics{
+    display:flex;
+    justify-content:space-around;
 }
 
 .vragen_h1{
@@ -191,4 +222,10 @@ textarea{
     padding-inline: 10px;
     display:flex;
     justify-content:center;
+}
+
+.homepage_pics{
+    justify-content: center;
+    display:flex;
+
 }
